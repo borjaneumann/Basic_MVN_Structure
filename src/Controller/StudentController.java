@@ -23,9 +23,6 @@ public class StudentController {
     public String getStudentRollNo(){
         return model.getRollNo();
     }
-//    Student studentModel = new Student();
-//    StudentView studentView = new StudentView();
-
     public void updateView(){
         view.printStudentDetails(model.getName(), model.getRollNo());
     }
